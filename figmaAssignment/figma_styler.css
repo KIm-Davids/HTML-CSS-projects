@@ -1,0 +1,456 @@
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 94px;
+    margin-top: 2rem;
+    font-family: "Inter", sans-serif;
+
+
+}
+.navBar{
+    margin-left: 25rem;
+    font-weight: lighter;
+    display: flex;
+    gap: 2rem;
+}
+
+.signUp{
+    margin-left: 30rem;
+    padding: 15px 40px
+
+}
+
+.hero{
+    display: flex;
+    gap: 30rem;
+}
+
+.heroTxt{
+    width: 63%;
+    height: 140px;
+    margin-left: 94px;
+    margin-top: 150px;
+    font-family: "Inter", sans-serif;
+    font-size: 3.9rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.secondHero{
+    margin-top: -1.8rem;
+}
+
+.heroImg{
+    margin-top: 100px;
+    margin-right: 4rem;
+}
+
+.heroFooter{
+    margin-top: -1.2rem;
+    width: 25rem;
+    height: 38px;
+    font-size: 1rem;
+    font-weight: lighter;
+
+}
+
+.getStartedClass{
+    width: 120%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+}
+
+.getStarted{
+    width: 20rem;
+    margin-bottom: 2rem;
+    --background-color: white;
+    padding: 18px 50px;
+    height: fit-content;
+    --background-color-dark: black;
+    color: white;
+    text-decoration: none;
+    z-index: 0;
+    outline: none;
+    border: none;
+    justify-content: space-between;
+    background-color: #2995e2;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 white,
+                9px 9px 0 black;
+}
+
+.playButtonLink{
+    display: flex;
+    gap: 2rem;
+    width: 190%;
+}
+.watchOurStory{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-top:  17px;
+    padding-bottom: 1.5rem;
+    gap: 2rem;
+    display: flex;
+}
+.playButton{
+    margin-top: 14px;
+    margin-left: -1rem;
+    cursor: pointer;
+}
+
+.aboutUs{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -9rem;
+    gap: 1.5rem;
+}
+
+.aboutUsTxt{
+    margin-top: 1rem;
+    margin-right: -8rem;
+    width: 300px;
+    height: 82px;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: "Inter", sans-serif;
+}
+
+.aboutUsWriteUp{
+    width: 60rem;
+    margin-top: -2rem;
+    margin-left: 31rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.tentImage{
+    margin-left: 73rem;
+    margin-top: -2.8rem;
+}
+
+.ourServices{
+    color: #2995e2;
+
+    font-family:"Inter", sans-serif;
+    margin-left: 94px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.ourServicesFooter{
+    margin-left: 94px;
+    font-size: 1.4rem;
+    font-family: "Inter", sans-serif;
+    margin-top: -2rem;
+    margin-bottom: -4.3rem;
+}
+
+.guardianshipOfChildrenTxt{
+    margin-left: 94px;
+    margin-top: 10rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+.guardianshipOfChildrenFooter{
+    margin-left: 94px;
+    width: 45rem;
+    font-size: 1.4rem;
+    font-family: "Inter", sans-serif;
+    line-height: 3rem;
+    font-weight: lighter;
+}
+
+.firstServices{
+    display: flex;
+    flex-direction: row;
+    gap: 30rem;
+}
+
+.familyImg{
+    margin-top: 100px;
+    margin-left: -18rem;
+}
+
+.aboutThis{
+    margin-left: 94px;
+    margin-bottom: 2rem;
+    --background-color: white;
+    padding: 20px 50px;
+    height: fit-content;
+    --background-color-dark: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 0;
+    outline: none;
+    border: none;
+    background-color: #2995e2;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 white,
+    9px 9px 0 black;
+}
+
+.helpingTheElderly{
+    margin-left: 94px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+
+}
+
+.helpingTheElderlyTxt{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    width: 30rem;
+    margin-top: 7rem;
+
+}
+
+.helpingTheElderlyFooter{
+    font-size: 1.4rem;
+    font-family: "Inter", sans-serif;
+    width: 48rem;
+    margin-right: 7rem;
+    margin-top: -1.3rem;
+    line-height: 3rem;
+}
+
+
+.aboutThisHelpingTheElderly{
+    margin-bottom: 2rem;
+    --background-color: white;
+    padding: 20px 50px;
+    height: fit-content;
+    --background-color-dark: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 0;
+    outline: none;
+    border: none;
+    background-color: #2995e2;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 white,
+    9px 9px 0 black;
+}
+
+
+.foodAndClothes{
+    margin-top: 9rem;
+    margin-left: 94px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+}
+
+.foodAndClothesTxt{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.foodAndClothesFooter{
+    width: 50rem;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+
+.aboutThisBuyingFoodAndCloth{
+    margin-bottom: 2rem;
+    --background-color: white;
+    padding: 20px 50px;
+    height: fit-content;
+    --background-color-dark: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 0;
+    outline: none;
+    border: none;
+    background-color: #2995e2;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 white,
+    9px 9px 0 black;
+}
+
+.getInTouch{
+    background-color: #2995e2;
+    width: 1148px;
+    height: 323px;
+    margin-left: 20rem;
+    display: flex;
+    margin-top: 8rem;
+
+}
+
+.getInTouchImg{
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.getInTouchTxt{
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: bolder;
+    width: 19rem;
+    line-height: 3.5rem;
+    margin-top: 3.5rem;
+    margin-left: 9rem;
+}
+
+.getInTouchButton{
+    margin-top: -35rem;
+    margin-left: 9rem;
+    --background-color: white;
+    padding: 18px 20px;
+    height: fit-content;
+    text-align: center;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    --background-color-dark: black;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 0;
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 #2995e2,
+    9px 9px 0 black;
+}
+
+.registerPage{
+    margin-top: 13rem;
+    margin-left: 20rem;
+    width: 90rem;
+    font-family: "Inter", sans-serif;
+
+}
+
+.inputDetails{
+    margin-top: 1.8rem;
+}
+
+.inputTextBox{
+    padding-top: 1rem;
+    padding-right: 17rem;
+
+}
+
+.Email{
+   margin-left: 31.5rem;
+}
+
+.nameTextBox{
+    width: 33.5rem;
+    height: 2.7rem;
+    margin-right: 2rem;
+}
+
+.emailTextBox{
+    width: 33rem;
+    height: 2.7rem;
+}
+
+.inputState{
+    margin-left: 5rem;
+
+
+}
+
+.inputState{
+    width: 5rem;
+    display: flex;
+    margin-left: 0rem;
+    flex-direction: row;
+    gap: 33.8rem;
+    margin-top: 4rem;
+}
+
+.states{
+    width: 34rem;
+    margin-top: 2rem;
+    height: 3.5rem;
+}
+
+.dropDownMenu{
+    gap: 10rem;
+    margin-top: -1.3rem;
+}
+
+.industryMenu{
+    margin-left: 2rem;
+    width: 33.5rem;
+    height: 3.5rem;
+    margin-top: -5rem;
+
+}
+
+.submitButton{
+    margin-top: 3rem;
+    margin-left: 20rem;
+    width: 29rem;
+    height: 3rem;
+    color: white;
+    background-color: #2995e2;
+    border-color: #2995e2;
+    cursor: pointer;
+}
+
+.lastLine{
+    margin-top: 10rem;
+    margin-left: 9rem;
+    display: flex;
+    flex-direction: row;
+    gap: 35rem;
+    font-family: "Inter", sans-serif;
+}
+
+.lastLIneFooter{
+    flex-direction: row;
+    line-height: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.6rem;
+}
+.footerTxt{
+    width: 12rem;
+}
+
+.lastLineImg{
+    margin-left: 5rem;
+    margin-top: 4rem;
+    width: 20rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.servicesFooter{
+    width: 17rem;
+    font-size: 1rem;
+}
+
+.officeFooter{
+    margin-left: 3.5rem;
+}

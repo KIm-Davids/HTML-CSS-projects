@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semicolon | Home</title>
+    <link rel="stylesheet" href="Semicolon_site_3.css">
+    <link rel="icon" type="image/jpg" href="logo.jpg">
+</head>
+<body>
+
+
+
+<div class="NavigationBar">
+    <div class="ImgDiv">
+        <img src = "https://res.cloudinary.com/dwyiuc4ov/image/upload/v1710150205/assets/home/grpyw2ac3zst8os5omh6.svg" alt="semicolon_logo" width="150" height="31">
+
+    </div>
+
+    <div class="NavLinks">
+        <a href="https://semicolon.africa/#/individual">Individuals</a>
+        <a href="https://semicolon.africa/#/businesses">Businesses</a>
+        <a href="https://semicolon.africa/#/aboutus">About Us</a>
+        <a href="https://semicolon.africa/#/career">Careers</a>
+        <a href="https://semicolon.africa/#/impact">Impact</a>
+        <a id="JoinTalentPoolButton" href="https://apply.semicolon.africa/"><button class="button">Join Talent pool</button></a>
+
+    </div>
+</div>
+
+<div class="hero">
+
+    <div class="header1">
+
+        <h1 class="acceleratingAfricaText">
+            Accelerating Africa's
+            Digital Transformation
+        </h1>
+    </div>
+    <div>
+        <h3 class="weEmpowerIndividualsText">
+            We empower individuals and businesses
+            to thrive in the future economy through
+            talent, technology, and innovation.
+        </h3>
+    </div>
+        <div class="firstButton">
+            <button class="forIndividualButton"> For Individuals</button>
+            <button class="forBusinessesButton"> For Businesses</button>
+        </div>
+    <div class="word-free-view">
+        <img src="https://res.cloudinary.com/dwyiuc4ov/image/upload/v1710150186/assets/home/gif/tu2drfgmgt4nakdq8slq.gif" alt="global view" width="800" height="600">
+    </div>
+</div>
+
+
+
+<div class="TextWhatWeDo">
+    <span style="color: #38516d">What </span><span style="color:red;"> We</span> <span style="color: #38516d"> Do</span></div>
+
+
+<div class="TheTwoLargeRedTextBox">
+
+   <div class="firstRedBox" style="background-color: #FF2E2E">
+       <img src="circle.png" class="circleImg">
+       <p class="firstRedBoxTxt" style="font-family: 'IBM Plex Sans', sans-serif">
+           We help <span style="font-size: 3rem">individuals</span> thrive and stand out in the digital economy
+           by training them to become world-class tech professionals.
+           We also help entrepreneurs successfully launch impactful, job-creating companies.
+       </p>
+   </div>
+
+    <div class="secondRedBox"style="background-color: #FF2E2E">
+        <img class="squareBox" src="square.png" style="background-color: #FF2E2E">
+        <p class="secondRedBoxTxt" style="font-family: 'IBM Plex Sans', sans-serif">
+            We support <span style="font-size: 3rem">businesses </span> on their digital transformation journeys
+            through talent placement, employee upskilling, project delivery,
+            and advisory services.
+
+        </p>
+    </div>
+</div>
+
+
+
+<div class="changePicContainer">
+    <div class="HowWeDoIt" style="font-family: 'IBM Plex Sans', sans-serif; font-size: 2rem">
+
+
+
+        <div>
+            <span style="color: #38516d">How </span><span style="color:#FF2E2E;">We </span><span style="color: #38516d">Do It</span>
+            <div class="changePicContainerTxt">
+                <button onclick="changeImage('ref_picture1.png')" class="technologyTrainingButton">
+                    > Technology Training
+                </button>
+                <div>
+                <button onclick="changeImage('ref_picture2.png')" class="talentPlacementButton">
+                    > Talent Placement
+                </button>
+                </div>
+                <div>
+                <button onclick="changeImage('ref_picture3.png')" class="employeeUpskillingButton">
+                        > Employee Upskilling
+                </button>
+                </div>
+                <div>
+                <button onclick="changeImage('ref_picture4.png')" class="projectImplementationButton">
+                    > Project Implementation & Digital Advisory
+                </button>
+                </div>
+                <button onclick="changeImage('ref_picture5.png')" class="VentureBuildingButton">
+                    > Venture Building
+                </button>
+                </div>
+                <img  class="bannerImage" id="bannerImage" src="ref_pictures1.png" alt="" width="621" height="351">
+            </div>
+            <script>
+                function changeImage(fileName){
+                    let img = document.querySelector('#bannerImage')
+                    img.setAttribute('src', fileName);
+                }
+            </script>
+        <div class="imageUnderBackground">
+
+        </div>
+        </div>
+
+
+
+            <!--            <div class="teachingImage">-->
+<!--                <img src="ref_pictures1.png" alt="image" width="621" height="351">-->
+<!--                <p class="container"></p>-->
+<!--            </div>-->
+
+
+</body>
+<script src="scripts.js"></script>
+</html>

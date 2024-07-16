@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Light",sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: black;
+}
+
+.top-bar span{
+    color: white;
+}
+
+.top-bar ul{
+    list-style: none;
+    display:flex;
+}
+
+.top-bar li{
+    margin: 0px 5px;
+
+}
+
+.top-bar a{
+    color: white;
+}
+
+.top-bar a:hover{
+    background-color: whitesmoke;
+}
+
+nav{
+    background: white;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav a {
+    color: #38516d;
+    font-size: 18px;
+    padding: 17px 20px;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+}
+
+.logo{
+    margin: 1px 5px;
+    flex: 1;
+}
+
+.logo a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+
+.menu.active,.toggle{
+    display: block;
+}
+
+.toggle{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+}
+
+
+#check{display: none}
+@media(max-width: 610px) {
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 600px;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        z-index: 100;
+        background-color: white;
+        transition: all 0.2s ease-in-out;
+    }
+
+}
+
+
+.button{
+    border-color: red;
+    border-radius: 12px;
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button_edit{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    font-family: "Roboto Light", sans-serif;
+    position: relative;
+    right: 1px;
+}
+
+
+
+
+.box{
+    font-size: 27px;
+    color: #38516d;
+    display: block;
+    width: 700px;
+    height: 100px;
+    padding: 45px;
+    font-family: "Roboto bold", serif;
+    margin: 50px 50px;
+    position: relative;
+    right: 20px;
+
+}
+.box_footer{
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+    margin: 50px 50px;
+}
+
+.box_for_individual{
+    background-color: red;
+    border-radius: 12px;
+    border-color: red;
+    width: 270px;
+    height: 60px;
+    position: relative;
+    left: 5px;
+    bottom: 80px;
+    margin: 5px 70px;
+
+
+}
+
+.box_for_individuals_edit{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.box_for_business{
+    background-color: white;
+    border-radius: 12px;
+    border-color: red;
+    width: 270px;
+    height: 60px;
+    position: relative;
+    right: 50px;
+    bottom: 80px;
+    margin-left: 1px;
+}
+
+.box_for_business_edit{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.world_free_view{
+    position: relative;
+    left: 1000px;
+    bottom: 520px;
+    max-width: 1000px;
+    max-height: 1000px;
+    z-index: 1;
+}
+
+
+.what_we_do{
+    position: relative;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    bottom: 250px;
+    left: 250px;
+    color: black;
+}
+
+.large_text_box{
+    width: 650px;
+    height: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Roboto Light",sans-serif;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+    padding: 20px;
+}
+.large_text_box_background{
+    background-color: #FF2E2E;
+    width: 650px;
+    height:350px;
+    border-radius: 20px;
+    position: relative;
+    left:300px;
+    bottom: 240px
+}
+
+.circle{
+    position: relative;
+    left: 320px;
+    bottom: 550px;
+}
+
+.second_large_text_box{
+    width: 650px;
+    height: 20px;
+    text-align: left;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "Roboto Light",sans-serif;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    position: relative;
+    bottom: 900px;
+    left: 1020px;
+    z-index: 2;
+}
+
+.second_large_text_box_background{
+    background-color: #FF2E2E;
+    width: 650px;
+    height:350px;
+    border-radius: 20px;
+    position: relative;
+    left: 1000px;
+    bottom: 690px;
+    z-index: 1;
+
+}
+
+.square{
+    position: relative;
+    left: 1000px;
+    bottom: 1050px;
+    z-index: 2;
+}
+
+.how-we-do-it{
+    position: relative;
+    bottom: 600px;
+    left: 350px;
+    font-size: 30px;
+    color: #38516d;
+    display: block;
+}
+
+.list-of-buttons{
+    position: relative;
+    bottom: 1px;
+    left: 1px;
+    font-family: "Roboto Light", serif;
+    color: red;
+}
+
+
+.TechnologyTraining{
+    background-color: white;
+    border: none;
+    color: #38516d;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.TalentPlacement{
+    background-color: white;
+    border: none;
+    color: #38516d;
+    margin: 35px;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    right: 265px;
+    cursor: pointer;
+}
+.EmployeeUpskilling{
+    background-color: white;
+    border: none;
+    color: #38516d;
+    margin: 35px;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    right: 533px;
+    cursor: pointer;
+}
+
+.ProjectImplementation{
+    background-color: white;
+    border: none;
+    color: #38516d;
+    margin: 35px;
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+    right: 835px;
+    cursor: pointer;
+}
+
+.VentureBuilding{
+    background-color: white;
+    border: none;
+    color: #38516d;
+    margin: 35px;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    right: 1369px;
+    cursor: pointer;
+}
+
+.technology_training_image{
+    position: relative;
+    margin: 50px
+}
