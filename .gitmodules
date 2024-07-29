@@ -1,0 +1,6 @@
+[submodule "IdeaProjects/IdeaProjects/Blog"]
+	path = IdeaProjects/IdeaProjects/Blog
+	url = https://github.com/KimP0SSIB1E/python_assignment.git
+[submodule "IdeaProjects/python_assignment"]
+	path = IdeaProjects/python_assignment
+	url = https://github.com/KimP0SSIB1E/python_assignment.git
